@@ -5,6 +5,6 @@ from tasks import *
 import os
 
 bot = MsBot()
-bot.run(port=int(os.environ['PORT'])
 bot.add_process(echo_response)
+bot.run(port=int(os.environ['PORT'])
 bot.run()
