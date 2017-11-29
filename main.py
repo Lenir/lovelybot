@@ -6,4 +6,4 @@ import os
 
 bot = MsBot()
 bot.add_process(echo_response)
-bot.run(port=int(os.environ['PORT'])
+bot.run()
